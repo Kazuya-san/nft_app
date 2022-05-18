@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".items").slick({
+          speed: 9000,
+          autoplay: true,
+          autoplaySpeed: 0,
+          cssEase: "linear",
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          vertical: true,
+          verticalSwiping: true,
+          arrows: false,
+        });
+      });
+    </script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .slick-list,
+      .slick-track {
+        height: 100%;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="overflow: hidden; height: 100%">
+      <div class="items">
+        <div class="item">
+          <img
+            alt=""
+            src="https://aku.mintyournfts.live/static/media/slide1.gif"
+            width="400px"
+          />
+        </div>
+        <div class="item">
+          <img
+            alt=""
+            src="https://aku.mintyournfts.live/static/media/slide1.gif"
+            width="400px"
+          />
+        </div>
+        <div class="item">
+          <img
+            alt=""
+            src="https://aku.mintyournfts.live/static/media/slide1.gif"
+            width="400px"
+          />
+        </div>
+        <div class="item">
+          <img
+            alt=""
+            src="https://aku.mintyournfts.live/static/media/slide1.gif"
+            width="400px"
+          />
+        </div>
+        <div class="item">
+          <img
+            alt=""
+            src="https://aku.mintyournfts.live/static/media/slide1.gif"
+            width="400px"
+          />
+        </div>
+        <div class="item">
+          <img
+            alt=""
+            src="https://aku.mintyournfts.live/static/media/slide1.gif"
+            width="400px"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
